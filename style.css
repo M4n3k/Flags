@@ -1,0 +1,359 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+.wraper {
+    margin: 3em auto;
+    width: 90%;
+    max-width: 1200px;
+    background: linear-gradient(92deg,
+    #F7516F ,
+    #FED892
+    );
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 1rem;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: #f2f2f2;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+
+}
+.container {
+    width: 100%;
+    background-color: transparent;
+    gap: 2rem 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.container > *{
+    flex: 1 1 10rem;
+}
+.col {
+    padding: 1rem 1rem;
+    background: 
+    linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0)
+    );
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    max-width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+.col > p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #25245E;
+    margin-top: 1rem;
+    transition: color 0.2s ease;
+}
+.col > p:hover{
+    color: #f2f2f2;
+}
+.footer> p{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+.flag {
+    width: 195px;
+    height: 108px;
+}
+/* Flags starts */
+.Bangladesh{
+    background-color: #00684D;
+    display: flex;
+}
+.round1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #E72D41;
+    margin: auto;
+}/* Bangladesh Flag*/
+.Armenia{
+    background: 
+    linear-gradient(
+    to bottom,
+    #CE0010 0 33%,
+    #17429C 0 66%,
+    #E79F01 0 100%
+    );
+}/* Armenia Flag*/
+.Austria{
+    background: 
+    linear-gradient(
+    to bottom,
+    #EE2436 0 33%,
+    #FFFFFF 0 66%,
+    #EE2436 0 100%
+    );
+}/* Austria Flag*/
+.Japan{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.round2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: red;
+    margin: auto;
+}/* Japan Flag*/
+.Belgium{
+    background: 
+    linear-gradient(
+    to right,
+    #060709 0 33%,
+    #E9D640 0 66%,
+    #E22738 0 100%
+    );
+}/* Belgium Flag*/
+.Benin{
+    background-color: #026E4F;
+    position: relative;
+}
+.box1{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: 
+    linear-gradient(
+        to top,
+        #8C0000 0 50%,
+        #F1C300 0 100%
+        );
+}/*Benin Flag*/
+.Botswana{
+background: #67A0C7;
+position: relative;
+}
+.Botswana > .box{
+    width: 100%;
+    height: 25px;
+    background: black;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}/*Botswana Flag*/
+.Bulgaria{
+    background: 
+    linear-gradient(
+    to bottom,
+    #F2F2F2 0 33%,
+    #008E68 0 66%,
+    #CB2411 0 100%
+    );
+}/* Bulgaria Flag*/
+.Maldives{
+    background-color: #007837 ;
+    position: relative;
+}
+.Maldives>.round {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: -11px 0px 0 1px white;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+}/*Maldives Flag*/
+.Chad{
+    background: 
+    linear-gradient(
+    to right,
+    #002364 0 33%,
+    #F1C300 0 66%,
+    #C70F30 0 100%
+    );
+}/* Chad Flag*/
+.Colombia{
+    background: 
+    linear-gradient(
+    to bottom,
+    #F0C615 0 50%,
+    #01358B 0 75%,
+    #C31025 0 100%
+    );
+}/* Colombia Flag*/
+.Denmark{
+    background: #BC0B2E;
+    position: relative;
+}
+.Denmark > .box1{
+    width: 20px;
+    height: 100%;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    transform: translateX(-65%);
+}
+.Denmark > .box2{
+    width: 100%;
+    height: 20px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}/*Denmark Flag*/
+.Mauritius{
+    background: 
+    linear-gradient(
+    to bottom,
+    #DE2636 0 25%,
+    #191E67 0 50%,
+    #F2CA00 0 75%,
+    #009D4D 0 100%
+    );
+}/* Mauritius Flag*/
+.Finland{
+    background: white;
+    position: relative;
+}
+.Finland > .box1{
+    width: 20px;
+    height: 100%;
+    background: #003279;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    transform: translateX(-65%);
+}
+.Finland > .box2{
+    width: 100%;
+    height: 20px;
+    background: #003279;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}/*Finland Flag*/
+.France{
+    background: 
+    linear-gradient(
+    to right,
+    #00218D 0 33%,
+    #F2F2F2 0 66%,
+    #E12736 0 100%
+    );
+}/* France Flag*/
+.Trinidad{
+    background: #CF1932;
+    position: relative;
+    overflow: hidden;
+}
+.Trinidad > .box {
+    width: 300px;
+    height: 30px;
+    background: black;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    position: absolute;
+    top: 50%;
+    right: -40%;
+    transform: rotate(214deg);
+}/*Trinidad and Tobago Flag*/
+.Gambia{
+    background: 
+    linear-gradient(
+    to bottom,
+    #C31025 0 33%,
+    white 0 37%,
+    #0B1B86 0 62%,
+    white 0 66%,
+    #377127 0 100%
+    );
+}/* Gambia Flag*/
+.Germany{
+    background: 
+    linear-gradient(
+    to bottom,
+    black 0 33%,
+    red 0 66%,
+    gold 0 100%
+    );
+}/* Germany Flag*/
+.Greece{
+    background:
+     linear-gradient( to bottom,
+         #0C59A6 0 12px,
+         white 0 24px,
+         #0C59A6 0 36px,
+         white 0 48px,
+         #0C59A6 0 60px,
+         white 0 72px,
+         #0C59A6 0 84px,
+         white 0 96px,
+         #0C59A6 0 108px
+     );
+    position: relative;
+}
+.Greece > .box{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background:
+     linear-gradient( to top,
+     #0C59A6 0 24px,
+     white 0 36px,
+     #0C59A6 0 60px
+     );
+    top: 0;
+    left: 0;
+}
+.Greece > .box > .box{
+    width: 12px;
+    height: 100%;
+    background: white;
+    margin: auto;
+}/*Greece Flag*/
+.Bahamas{
+    background:
+     linear-gradient( to top,
+         #02A1C6 0 33%,
+         #F1CF22 0 66%,
+         #02A1C6 0 100%
+    );
+    position: relative;
+}
+.Bahamas > .triangle {
+    position: absolute;
+    background: transparent;
+    border-left: 90px solid black;
+    border-top: 54px solid transparent;
+    border-bottom: 54px solid transparent;
+}/*Bahamas Flag*/
